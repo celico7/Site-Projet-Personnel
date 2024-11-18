@@ -53,8 +53,8 @@ body::after {
   font-weight: 800;
   color: transparent;
   font-size: 120px;
-  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
-  background-position: 40% 50%;
+  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg");
+  background-position: 80% 60%;
   -webkit-background-clip: text;
   position: relative;
   line-height: 90px;
@@ -82,11 +82,11 @@ body::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #009dbc00;
+  background-color: #009dbc20;
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
-  color: rgb(206, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 24px;
   height: 150px;
   cursor: pointer;

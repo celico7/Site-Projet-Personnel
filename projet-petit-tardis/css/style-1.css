@@ -115,6 +115,19 @@ select{
     outline:none;
   }
 
+figure:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
 .staff img{
     width: 120px;
     border-radius: 50%;
@@ -122,6 +135,10 @@ select{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.staff img:hover{
+  box-shadow: 5px 5px 5px black;
 }
 
 .admin{
@@ -168,7 +185,9 @@ select{
     min-width: 150px;  /* Largeur minimale */
     padding: 10px;     /* Ajuste l'espace intérieur */
     margin: 10px;
+    border: solid black 0.5px;
   }
+
   .words-container {
     display: flex;
     gap: 10px;

@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style-2.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/style-4.css">
 </head>
+
 <body>
 
     <div class="main-container">
@@ -14,15 +18,19 @@
         <div class="menu-section">
             <a href="index.html">
                 <img src="/Logo_Petit_Tardis.png" alt="Maître des Fleurs" class="logo"></a>
-            <h1>Le serveur</h1>
+            <h1>Doctor Who</h1>
             <ul class="menu-links">
                 <li><a href="#" onclick="showSection('how-to-play')">La série</a></li>
                 <li><a href="#" onclick="showSection('hall-of-fleur')">Vote pour ton personnage</a></li>
-                <li><a href="#" onclick="showSection('submit-questions')">Whodle</a></li>
+                <li><a href="#" onclick="showSection('roue')">Tourne la roue</a></li>
             </ul>
+            <a href="https://discord.gg/petit-tardis" target="_blank"> <i class="bi bi-discord"
+                    style="font-size: 30px; color:#5865F2"></i> </a>
+            <p>&copy; 2024 - .celico</p>
+            <a href="https://linktr.ee/celico_" target="_blank">Pour me contacter</a>
         </div>
 
-        <!-- Content Section (replaces image) -->
+
         <div class="content-container">
             <div id="how-to-play" class="content-section" style="display: none;">
                 <h2>Comment jouer ?</h2>
@@ -56,18 +64,21 @@
                 </div>
             </div>
 
-            <div id="submit-questions" class="content-section" style="display: none;">
-                <h2>Proposer des questions</h2>
-                <p>Formulaire pour soumettre des questions...</p>
-            </div>
-
-            <div id="ponce-shop" class="content-section" style="display: none;">
-                <h2>La Boutique Ponce</h2>
-                <p>Les articles disponibles dans la boutique...</p>
+            <div id="roue" class="content-section" style="display: none;">
+                <h2>Tu ne sais pas quel épisode regarder ?</h2>
+                <h5>Tourne la roue !</h5>
+                <div class="wheel-container">
+                    <div id="chart"></div>
+                    <div id="resultat"> 
+                        <p></p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script src="script.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="script4.js"></script>
+
 </body>
+
 </html>
