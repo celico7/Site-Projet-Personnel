@@ -2,6 +2,7 @@
 <p> Ce projet est basé sur un serveur discord pour la communauté fr de la série Doctor Who, où je suis admin</p>
 <p> Lien vers Le Petit Tardis
 <a href="https://discord.gg/https://discord.gg/J666Sac" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/J666Sac" height="30" width="40" /></a>
+<a href="https://celico7.github.io/"> Voir le site </a>
 </p>
 
 <h3 align="left">Languages utilisés :</h3>
