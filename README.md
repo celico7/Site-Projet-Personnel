@@ -1,5 +1,5 @@
 <h2 align="center">Projet personnel, développement d'un site web</h2>
-<p> Ce projet est basé sur un serveur discord pour la communauté fr de la série Doctor Who, où je suis admin</p>
+<p> Ce projet est basé sur un serveur discord pour la communauté fr de la série Doctor Who</p>
 <p> Lien vers Le Petit Tardis
 <a href="https://discord.gg/https://discord.gg/J666Sac" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/J666Sac" height="30" width="40" /></a>
 <a href="https://celico7.github.io/"> Voir le site </a>
